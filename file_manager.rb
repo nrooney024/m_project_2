@@ -32,7 +32,7 @@ class FileManager
   
   # Creates a string of the params passed into the FileManager class to cleanly see what they are
   def arguments_to_string
-    return "File: #{file}\n\nDelimiter: #{delimiter}\n\nOrder: #{order}\n\nDate Format: #{date_format}"
+    "File: #{file}\n\nDelimiter: #{delimiter}\n\nOrder: #{order}\n\nDate Format: #{date_format}"
   end
 
 
@@ -91,6 +91,6 @@ class FileManager
     end
 
     # When it's done running through the file, it returns an array of each Person instance created
-    return persons
+    persons
   end
 end
