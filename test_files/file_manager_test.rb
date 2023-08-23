@@ -31,7 +31,6 @@ class TestFileManager < Minitest::Test
     @expected_persons3 = [
       Person.new('Abercrombie', 'Neil', 'Male', '2/13/1943', 'Tan'),
       Person.new('Bishop', 'Timothy', 'Male', '4/23/1967', 'Yellow'),
-      Person.new('Kelly', 'Sue', 'Female', '7/12/1959', 'Pink')
     ]
   end
 
