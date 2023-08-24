@@ -9,7 +9,8 @@ line_break = "\n\n"
 file_configs = [
 	['./input_files/file1.txt', ' ', {last_name: 0, first_name: 1, gender: 3, dob: 4, color: 5}],
 	['./input_files/file2.txt', '|', {last_name: 0, first_name: 1, gender: 3, dob: 5, color: 4}],
-	['./input_files/file3.txt', ',', {last_name: 0, first_name: 1, gender: 2, dob: 4, color: 3}]
+	['./input_files/file3.txt', ',', {last_name: 0, first_name: 1, gender: 2, dob: 4, color: 3}],
+	['./input_files/file4.txt', ':', {last_name: 0, first_name: 1, gender: 3, dob: 5, color: 4}],
 ]
 
 # Construct person arrays from the file configurations by making FileManager instances 
