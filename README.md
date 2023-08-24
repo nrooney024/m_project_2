@@ -80,17 +80,26 @@ RETURN
 ###### sort_by_gender_and_last_name
 `db_manager_instance.sort_by_gender_and_last_name`
 
+PARAM
+- display_in_terminal: If this is passed true, it will display your sort method in the terminal. If it's passed false (or left empty), it will not display the sort in the terminal.
+
 RETURN
 - An array of Person instances sorted by gender (females before males) then by last name ascending.
 
 ###### sort_by_dob_and_last_name
 `db_manager_instance.sort_by_dob_and_last_name`
 
+PARAM
+- display_in_terminal: If this is passed true, it will display your sort method in the terminal. If it's passed false (or left empty), it will not display the sort in the terminal.
+
 RETURN
 - An array of Person instances sorted by birth date, ascending then by last name ascending
 
 ###### sort_by_last_name_desc
 `db_manager_instance.sort_by_last_name_desc`
+
+PARAM
+- display_in_terminal: If this is passed true, it will display your sort method in the terminal. If it's passed false (or left empty), it will not display the sort in the terminal.
 
 RETURN
 - An array of Person instances sorted by last name, descending.
