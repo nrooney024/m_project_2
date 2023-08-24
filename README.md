@@ -24,7 +24,7 @@ From the project directory, run the main script to prompt it to solve the given 
 
 ##### PARAMS
 - File: path to your txt file of personal data.
-- Delimiter: what the properties of each person in the txt file is delimited by (" ", "|", or ",").
+- Delimiter: what the properties of each person in the txt file is delimited by (" ", "|", ",", or ":").
 - Order: a hash where the keys are the listed personal properties above and the value is their index (starting with 0).
 
 ##### METHODS
