@@ -22,6 +22,10 @@ class FileManager
       " " => {
         format: "LastName FirstName MiddleInitial Gender DateOfBirth FavoriteColor",
         count: 6
+      },
+      ":" => {
+        format: "LastName : FirstName : MiddleInitial : Gender : FavoriteColor : DateOfBirth",
+        count: 6
       }
     }
     # For organizing terminal
